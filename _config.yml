@@ -26,11 +26,10 @@ author: Danial Mecja
 
 # Build settings
 markdown: kramdown
-theme: minima
+# Removed minima theme to convert to regular theme
+# theme: minima
 plugins:
   - jekyll-feed
-
-# Remote Theme setup
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
