@@ -5,5 +5,6 @@
 layout: home-books
 title: "Book Reviews"
 category: books
+permalink: /books
 ---
 
