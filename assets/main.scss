@@ -3,3 +3,33 @@
 ---
 
 @import "minima";
+
+.profile-pic {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+float: left; /* Ensure the image floats to the left */
+margin-right: 20px; /* Add space between the image and text */
+object-fit: cover; /* Crop the image proportionally */
+}
+/* Force headings to align next to the floated image */
+// h2 {
+//     display: inline-block;
+//     vertical-align: top; /* Align the heading vertically with the image */
+//     margin-top: 0; /* Adjust spacing to align with the image */
+//   }
+// .profile-pic {
+//     width: 150px; /* Keep the visible size */
+//     height: 150px;
+//     border-radius: 50%;
+//     margin-right: 20px;
+//     float: left; /* Align to the left */
+//     object-fit: cover; /* Ensures proper cropping */
+//     transform: scale(1.2); /* Zoom in by 20% */
+//     transition: transform 0.3s ease; /* Smooth zoom animation */
+  
+//     /* Optional: Hover effect for interactive zoom */
+//     &:hover {
+//       transform: scale(1.4); /* Zoom in further on hover */
+//     }
+//   }

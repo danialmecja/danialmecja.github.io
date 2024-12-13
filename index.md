@@ -3,27 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
+title: Hi, I'm Danial Mecja 👋🏻
 ---
 
-## Why hello there 👋🏻
-My name's Danial and welcome to my personal site.
+![Profile Picture](/assets/thinking.JPEG){: .profile-pic} 
+## Data Scientist, Explorer of experiences 🗺️
 
+I design and develop ~~interactive interfaces~~ dashboards and tooling from scratch to **improve research workflows, analytics, and management processes** @ Khazanah Nasional.
 
-I'm a recent first-class graduate of BSc. Computer Science (Artificial Intelligence) from the University of Malaya, KL. Soon, I'll be diving into the world of ✨ Data & Analytics ✨ in my country's sovereign wealth fund, to which I can imagine, will be alot of fun (pun intended).
+I'm a big fan of game theory, time-series analysis, NLP, and ML Ops. I find joy in learning and exploring the underlying stories that data tells us. I love how it can say a lot about people, the intuitions that come from that, and the impact they can have in decision-making.
 
-I'm a big fan of ML (with sprinkles of DL ✨) and the insane value one can derive from it. It's easy to feel overwhelmed by the buzz in the AI space but I feel that with a goal in mind (and speaking as an optimist), there are various opportunities to leverage and build products that aid us in our day-to-day, which I'm striving to continuously work on (which I'll record in this site 🤞🏻). 
+I'm currently making my way through: [An Introduction to Statistical Learning](https://www.statlearning.com/). 
 
 I love doing fun things in my free time, of which include (but aren't limited to):
 - Watching my favourite EPL team, Manchester United, try their best to not dissapoint me, week-in and week out 😢
-- Picking heavy things up and down 5-days a week, hoping they'd be lighter on the next week 🏋🏻‍♀️
-- Paying meticulous attention to Ferrari and how they still struggle around 18 other high-speed cars zoom around in a circle (not a good time to be a fan of the color red...) 🏎️
-- Spending many hours reading on my Kindle (check out [my book review page!](/books))
-
-If that wasn't enough learning about me, check out my page called [About](/about.md) that's dedicated to more of that.
+- Picking heavy things up & down throughout the week, hoping they'd be lighter on the next week 🏋🏻‍♀️
+- Reading on my Kindle check out [my goodreads](https://www.goodreads.com/user/show/167109101-danial-mecja) or [my reading page](/books)
 
 
-
-For a fuller, and more professional overview, check out my [LinkedIn](https://www.linkedin.com/in/danialmecja/).
-
-If you'd like to reach out, feel free to ping me through my email below! I'd love to chat.
+If you'd like to reach out to talk about any of the above or anything at all, ping me through my email below! I'd love to chat.
