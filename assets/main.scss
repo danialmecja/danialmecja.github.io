@@ -5,12 +5,57 @@
 @import "minima";
 
 .profile-pic {
-width: 150px;
-height: 150px;
+width: 175px;
+height: 175px;
 border-radius: 50%;
 float: left; /* Ensure the image floats to the left */
 margin-right: 20px; /* Add space between the image and text */
 object-fit: cover; /* Crop the image proportionally */
+}
+.right-image {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 300px;
+    height: auto;
+    border: 1.5px solid #020000;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 10);
+    padding: 4px;
+  }
+
+// .svg-icon {
+// width: 30px;// Increased from 16px
+// height: 30px; // Increased from 16px
+// display: inline-block;
+// fill: #828282;
+// padding: 0px;
+// vertical-align: middle;
+// transform-origin: center;
+
+// &:hover {
+//     fill: #424242;
+//     transform: scale(1.1);
+//     transition: transform 0.2s;
+// }
+// }
+
+.social-media-list {
+display: flex;
+align-items: center;
+gap: 5px;
+
+li {
+    display: inline-block;
+    padding: 0px;
+}
+
+li + li {
+    padding-top: 0;
+}
+
+.username {
+    display: none; // Hide usernames
+}
 }
 /* Force headings to align next to the floated image */
 // h2 {

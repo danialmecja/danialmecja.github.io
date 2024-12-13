@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Danial's Site
+title: 🏡 Danial's Site
 email: danialmecja@gmail.com
 description: >- # >- this means to ignore newlines until "baseurl:"
-  Last updated: 6 August 2023.
+  Last updated: 13 December 2024.
   Built with ❤️ using Jekyll.
 baseurl:  # the subpath of your site, e.g. /blog
 url: "https://danialmecja.github.io" # the base hostname & protocol for your site, e.g. http://example.com
