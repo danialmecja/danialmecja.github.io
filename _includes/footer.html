@@ -15,9 +15,9 @@
               {{ site.title | escape }}
             {%- endif -%} -->
             </li>
-            <!-- {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%} -->
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">✉️ {{ site.email }}</a></li>
+            {%- endif -%}
             {%- if site.copyright -%}
             <li>&copy; {{ 'now' | date: "%Y" }} {{ site.copyright }}</li>
             {%- endif -%}
@@ -29,7 +29,8 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <!-- <p>{{- site.description | escape -}}</p> -->
+        <p>{{ site.description | newline_to_br }}</p>
       </div>
     </div>
 

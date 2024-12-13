@@ -6,7 +6,7 @@ layout: home
 # title: Hi, I'm Danial Mecja 👋🏻
 ---
 
-![Profile Picture](/assets/thinking.JPEG){: .profile-pic} 
+![Profile Picture](/assets/thinking.JPEG "Snapped by @divyataery"){: .profile-pic} 
 ## Hi, I'm Danial Mecja 👋🏻
 ### Data Scientist, Explorer of experiences 🗺️
 

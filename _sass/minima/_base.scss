@@ -214,12 +214,12 @@ pre {
     display: inline-block;
     fill: #{$grey-color};
     // padding-right: 5px;
-    padding: 10px;
+    padding: 5px;
     vertical-align: text-top;
-    transform: scale(2);
+    transform: scale(1.5);
     &:hover {
       fill: #424242;
-      transform: scale(2.4);
+      transform: scale(1.9);
       transition: transform 0.2s;
     }
 }
