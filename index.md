@@ -3,11 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Hi, I'm Danial Mecja 👋🏻
+# title: Hi, I'm Danial Mecja 👋🏻
 ---
 
 ![Profile Picture](/assets/thinking.JPEG){: .profile-pic} 
-## Data Scientist, Explorer of experiences 🗺️
+## Hi, I'm Danial Mecja 👋🏻
+### Data Scientist, Explorer of experiences 🗺️
 
 I design and develop ~~interactive interfaces~~ dashboards and tooling from scratch to **improve research workflows, analytics, and management processes** @ Khazanah Nasional.
 
