@@ -6,7 +6,7 @@ layout: home
 # title: Hi, I'm Danial Mecja 👋🏻
 ---
 
-![Profile Picture](/assets/thinking.JPEG){: .profile-pic} 
+![Profile Picture](/assets/thinking.JPEG "Snapped by @divyataery"){: .profile-pic} 
 ## Hi, I'm Danial Mecja 👋🏻
 ### Data Scientist, Explorer of experiences 🗺️
 
@@ -18,8 +18,8 @@ I'm currently making my way through: [An Introduction to Statistical Learning](h
 
 I love doing fun things in my free time, of which include (but aren't limited to):
 - Watching my favourite EPL team, Manchester United, try their best to not dissapoint me, week-in and week out 😢
-- Picking heavy things up & down throughout the week, hoping they'd be lighter on the next week 🏋🏻‍♀️
-- Reading on my Kindle check out [my goodreads](https://www.goodreads.com/user/show/167109101-danial-mecja) or [my reading page](/books)
+- Picking heavy things up & down throughout the week, with heavier loads on the next 🏋🏻‍♀️ 🔁
+- Reading on my Kindle. Check out [my goodreads](https://www.goodreads.com/user/show/167109101-danial-mecja) 🤓
 
 
 If you'd like to reach out to talk about any of the above or anything at all, ping me through my email below! I'd love to chat.
