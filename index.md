@@ -8,9 +8,9 @@ layout: home
 
 ![Profile Picture](/assets/thinking.JPEG "Snapped by @divyataery"){: .profile-pic} 
 ## Hi, I'm Danial Mecja 👋🏻
-### Data Scientist, Explorer of experiences 🗺️
+### Computer Scientist, Explorer of experiences 🗺️
 
-I design and develop ~~interactive interfaces~~ dashboards and tooling from scratch to **improve research workflows, analytics, and management processes** @ Khazanah Nasional.
+I design and develop ~~dashboards~~ interactive interfaces and tooling from scratch to **improve research workflows, analytics, and management processes** @ Khazanah Nasional.
 
 I'm a big fan of game theory, time-series analysis, NLP, and ML Ops. I find joy in learning and exploring the underlying stories that data tells us. I love how it can say a lot about people, the intuitions that come from that, and the impact they can have in decision-making.
 
