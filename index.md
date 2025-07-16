@@ -8,7 +8,7 @@ layout: home
 
 ![Profile Picture](/assets/thinking.JPEG "Snapped by @divyataery"){: .profile-pic} 
 ## Hi, I'm Danial Mecja 👋🏻
-### Computer Scientist, Explorer of experiences 🗺️
+### Solutions Architect, Explorer of experiences 🗺️
 
 I design and develop ~~dashboards~~ interactive interfaces and tooling from scratch to **improve research workflows, analytics, and management processes** @ Khazanah Nasional.
 
@@ -17,8 +17,7 @@ I'm a big fan of game theory, time-series analysis, NLP, and ML Ops. I find joy 
 I'm currently making my way through: [An Introduction to Statistical Learning](https://www.statlearning.com/). 
 
 I love doing fun things in my free time, of which include (but aren't limited to):
-- Watching my favourite EPL team, Manchester United, try their best to not dissapoint me, week-in and week out 😢
-- Picking heavy things up & down throughout the week, with heavier loads on the next 🏋🏻‍♀️ 🔁
+- Working out (Running, ring calisthenics, swimming)
 - Reading on my Kindle. Check out [my goodreads](https://www.goodreads.com/user/show/167109101-danial-mecja) 🤓
 
 

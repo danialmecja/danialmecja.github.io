@@ -6,8 +6,8 @@ permalink: /about/
 ![About Me](/assets/Chiang Mai.jpeg "Snapped at Baan Kang Wat, Chiang Mai"){: .right-image} 
 ### What I'm currently up to:
 - Learning: [An Introduction to Statistical Learning](https://www.statlearning.com/)
-- Grokking with GPT-4o for Research teams
-- Developing an expense tracker with multi-modality for personal use (to commit myself with tracking expenses)
+- Grokking with LLMs for business teams
+- Relearning the guitar 🎸
 - S-living (*slaying and living*)
 
 ### What I was previously up to:
