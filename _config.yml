@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: umile dimora
+tagline: "personale"
 email: danialmecja@gmail.com
 description: | # >- this means to ignore newlines until "baseurl:"
   Built with ❤️ using Jekyll
@@ -30,6 +31,7 @@ comments: true
 # New fields not defaulted by jekyll-new with minima
 # Add copyright
 copyright: "Danial Mecja"
+
 
 # Build settings
 markdown: kramdown
