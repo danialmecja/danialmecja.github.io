@@ -33,6 +33,12 @@ comments: true
 copyright: "Danial Mecja"
 
 
+# Navigation order
+header_pages:
+  - about.md
+  - blog-writings/index.md
+  - blog-books/index.md
+
 # Build settings
 markdown: kramdown
 # Removed minima theme to convert to regular theme

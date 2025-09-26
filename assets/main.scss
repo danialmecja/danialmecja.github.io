@@ -50,6 +50,307 @@ object-fit: cover; /* Crop the image proportionally */
   object-fit: cover;
 }
 
+// Footer alignment fix
+.site-footer {
+  text-align: center;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-col {
+  text-align: center;
+  min-width: auto;
+}
+
+.contact-list, .social-media-list {
+  text-align: center;
+}
+
+.contact-list li, .social-media-list li {
+  text-align: center;
+}
+
+// Writings page layout
+.writings-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.writings-posts, .writings-blog {
+  min-height: 200px;
+}
+
+.section-heading {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+// Posts section (left column)
+.posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 500;
+  flex: 1;
+
+  a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #666;
+    }
+  }
+}
+
+.post-date {
+  font-size: 0.9em;
+  color: #888;
+  font-weight: 400;
+  margin-left: 15px;
+  white-space: nowrap;
+
+  @media (max-width: 600px) {
+    margin-left: 0;
+    font-size: 0.85em;
+  }
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.85em;
+  font-weight: 400;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #333;
+    border-bottom-color: #333;
+  }
+}
+
+// Post page tags (under title)
+.post-page-tags {
+  display: block;
+  margin: 1px 0 15px 0;
+  clear: both;
+
+  .tag {
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+// Blog section (right column)
+.blog-archive {
+  .no-posts {
+    color: #888;
+    font-style: italic;
+  }
+}
+
+.year-group {
+  margin-bottom: 15px;
+}
+
+.year-toggle, .month-toggle {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1em;
+  color: #333;
+  cursor: pointer;
+  padding: 8px 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #666;
+  }
+
+  &.expanded {
+    color: #333;
+  }
+}
+
+.year-toggle {
+  font-size: 1.1em;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.month-toggle {
+  font-size: 1em;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.toggle-icon {
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+  width: 12px;
+  display: inline-block;
+}
+
+.year-content, .month-content {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.year-content {
+  margin-bottom: 10px;
+}
+
+.month-content {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.month-group {
+  margin-bottom: 15px;
+}
+
+// Blog posts list
+.blog-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.blog-post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #f8f8f8;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: #fafafa;
+    margin: 0 -8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+  }
+}
+
+.blog-post-title {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95em;
+  flex: 1;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #666;
+  }
+}
+
+.blog-post-date {
+  font-size: 0.85em;
+  color: #888;
+  font-weight: 400;
+  margin-left: 15px;
+  min-width: 45px;
+  text-align: right;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .writings-container {
+    margin-top: 20px;
+  }
+
+  .section-heading {
+    font-size: 1.3em;
+  }
+
+  .blog-post-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .blog-post-date {
+    margin-left: 0;
+    text-align: left;
+    font-size: 0.8em;
+  }
+
+  .month-content, .blog-posts-list {
+    margin-left: 10px;
+  }
+
+  .month-toggle {
+    padding-left: 10px;
+  }
+}
+
 // .svg-icon {
 // width: 30px;// Increased from 16px
 // height: 30px; // Increased from 16px

@@ -2,7 +2,8 @@
 layout: post
 title: "My Godson, Ginger"
 date: 2025-02-22
-category: writings
+category: writings-posts
+tags: [personal, pets, memories, poetry]
 ---
 
 Sometime in late July 2024, my buddy, Hussein, dropped by to pass me Ginger, who arrived with quiet uncertainty. My housemates (Kishen & Mel) and I liked to think that we weren’t just housing a cat but sharing our lives with a whole person. One whose gaze was deep and unreadable, keeping us in a constant state of intrigue and suspense, always wondering what he’d do next.

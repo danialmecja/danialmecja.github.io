@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">Posts tagged "{{ page.tag }}"</h1>
+
+  {%- assign tagged_posts = site.posts | where_exp: "post", "post.tags contains page.tag" -%}
+
+  {%- if tagged_posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in tagged_posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if post.excerpt -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- else -%}
+    <p>No posts found with the tag "{{ page.tag }}".</p>
+  {%- endif -%}
+
+  <p><a href="{{ '/blog-writings' | relative_url }}">← Back to Writings</a></p>
+</div>
